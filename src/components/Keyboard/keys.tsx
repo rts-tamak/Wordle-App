@@ -1,11 +1,12 @@
 import { keyboardframe } from "../../temp";
+import Row1 from "./row1";
 
 
 function Keys() {
   return (
     <>
       <div className={keyboardframe}>
-        ff
+        <Row1/>
       </div>
     </>
   );
